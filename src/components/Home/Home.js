@@ -5,7 +5,6 @@ import {
   StyledButtonsContainer,
   StyledHome,
   Title,
-  Line,
   Greeting,
   Social,
   Socials,
@@ -15,13 +14,11 @@ import "./style.css";
 import projectIcon from "../../assets/icons/project-icon.svg";
 import aboutIcon from "../../assets/icons/about-me.svg";
 import { IconContext } from "react-icons";
-import { GrLinkedinOption } from "react-icons/gr";
 import { GoMarkGithub } from "react-icons/go";
 import { FaEnvelope } from "react-icons/fa";
 
 const Home = () => {
-  let today = new Date(),
-    hour = today.getHours();
+  let today = new Date();
 
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
