@@ -18,7 +18,7 @@ import { GoMarkGithub } from "react-icons/go";
 import { FaEnvelope } from "react-icons/fa";
 
 const Home = () => {
-  let today = new Date();
+  // let today = new Date();
 
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
